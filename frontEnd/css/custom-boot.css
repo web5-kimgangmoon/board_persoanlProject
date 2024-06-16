@@ -1,0 +1,35 @@
+:root {
+  --bs-primary-rgb: 240, 202, 182;
+  --bs-secondary-rgb: 209, 70, 150;
+  --bs-warning-rgb: 255, 193, 76;
+  --bs-info-rgb: 250, 70, 220;
+}
+
+i {
+  display: inline-block;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.bg-custom-gradient {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 200, 0.6)
+  );
+}
+.border-solid {
+  border-style: solid;
+}
+.bg-wheat {
+  background-color: wheat;
+}
+.fs-1rem {
+  font-size: 1rem;
+}
+.fs-2rem {
+  font-size: 2rem;
+}
+.fs-3rem {
+  font-size: 3rem;
+}
