@@ -23,3 +23,4 @@
     ...[mk_btn_toggle_collapse({ target: "#test", ariaControls: "test" })]
   );
 })();
+

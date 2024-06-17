@@ -149,7 +149,7 @@ function mk_btn_toggle_collapse({
     classList,
     id,
     target,
-    toggle: "modal",
+    toggle: "collapse",
   });
   if (ariaControls) {
     toggle_btn.setAttribute("aria-controls", ariaControls);
