@@ -1,6 +1,7 @@
 (() => {
   const menu = document.createElement("div");
-  menu.classList = "rounded p-3 d-flex menu bg-warning bg-gradient";
+  menu.classList =
+    "rounded ps-5 pe-5 pt-3 pb-3 d-flex menu bg-warning bg-gradient";
   document.getElementsByClassName("header")[0].appendChild(menu);
   const i_array = [
     mk_i({
@@ -18,9 +19,21 @@
       ],
     }),
   ];
+  const table = mk_accordionTable({
+    id: "test_accordion",
+    items: [
+      {
+        writer: "하하",
+        title: "테스트중dddddddddddddddddddddddddd",
+        views: "0",
+        recommend: "3",
+        createdAt: Date.now(),
+        bodyNode: mk_elem({ tag: "div", innerText: "시험중입니다" }),
+      },
+    ],
+  });
   menu.append(...i_array);
-  menu.append(
-    ...[mk_btn_toggle_collapse({ target: "#test", ariaControls: "test" })]
-  );
+  menu.appendChild(table);
 })();
 
+// writer: string, title: string, views: number, recommend: number, createdAt: Date, bodyNode: HTMLElement

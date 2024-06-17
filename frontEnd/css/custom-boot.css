@@ -1,8 +1,8 @@
 :root {
-  --bs-primary-rgb: 240, 202, 182;
+  /* --bs-primary-rgb: 240, 202, 182;
   --bs-secondary-rgb: 209, 70, 150;
   --bs-warning-rgb: 255, 193, 76;
-  --bs-info-rgb: 250, 70, 220;
+  --bs-info-rgb: 250, 70, 220; */
 }
 
 i {
@@ -32,4 +32,10 @@ a {
 }
 .fs-3rem {
   font-size: 3rem;
+}
+.w-6rem {
+  width: 6rem;
+}
+.mw-10rem {
+  width: 10rem;
 }
